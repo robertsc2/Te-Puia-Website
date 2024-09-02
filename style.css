@@ -155,3 +155,13 @@ footer {
 
 
 
+.restaurant_img {
+  width: 2000px;
+  height: 600px;
+  border-radius: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h2 { text-align: center;
+width: 500px;}
