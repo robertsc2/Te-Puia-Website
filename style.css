@@ -1,0 +1,157 @@
+
+* {
+  font-family: Arial;
+}
+body {
+  margin: auto;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+.logo {
+  width: 10%;
+  position: relative;
+ 
+}
+
+
+.hero-image {
+  background-image: url("./Images/TePuia\ Cover\ Image.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+
+.topnav {
+  background-color: whitesmoke;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a.active {
+  background-color: #FF7676;
+  color: white;
+}
+
+
+.topnav a:hover {
+  background-color: #ffcbcb;
+  color: rgb(0, 0, 0);
+}
+
+
+.topnav b {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnavimg {
+  width: 6%;
+  height: 10px;
+  position: relative;
+  top: -23px;
+}
+
+
+.redbar {
+  height: 25px;
+  border-radius: 0px;
+}
+
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Changed columns to make it more responsive */
+  gap: 50px;
+  margin: 0 auto; /* Centers the section */
+  max-width: 1200px; /* Restricts width for better readability */
+  padding: 20px; /* Adds some padding for aesthetics */
+}
+
+
+.Aboutimg img {
+  width: 100%; /* Ensures image is responsive */
+  height: auto; /* Maintains aspect ratio */
+}
+
+
+h1 {
+  background-color: #B02828;
+  color: whitesmoke;
+}
+
+
+.redbar2 {
+  height: 25px;
+  border-radius: 0px;
+  margin-top: 49px;
+}
+
+
+.three-column{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card{
+  background-color: #B02828 ;
+}
+
+
+.card-text {
+  text-align: center;
+  color: whitesmoke;
+
+
+}
+
+
+a {
+  color: whitesmoke;
+}
+
+
+footer {
+  background-color:#D9D9D9;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+
+
+
