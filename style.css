@@ -156,12 +156,41 @@ footer {
 
 
 .restaurant_img {
-  width: 2000px;
+  width: 1500px;
   height: 600px;
   border-radius: 40px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Centered text */
+.Restaurants {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #B02828;
+  border-radius: 5px;
+  font-size: 90px;
 
-h2 { text-align: center;
-width: 500px;}
+}
+
+
+
+
+h3 {
+  margin: auto;
+  text-align: center;
+  font-weight: 5;
+  width: 40%;
+}
+
+.icon {
+  margin-top: 40px;
+  width: 300px;
+  }
