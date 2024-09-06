@@ -1,27 +1,38 @@
+/* Stlying font for everything */
 * {
   font-family: Arial;
 }
+
+/* General styling for the body element */
 body {
   margin: auto;
   text-align: center;
   background-color: whitesmoke;
 }
+
+/* Styling for all images */
 img {
   width: 100%;
   border-radius: 5px;
 }
+
+/* Styling for the logo image */
 .logo {
   width: 10%;
   position: relative;
 }
+
+/* Styling for the top navigation bar */
 .topnav {
   background-color: whitesmoke;
   overflow: hidden;
   margin-bottom: 5px;
-  position:fixed;
-  top:0;
+  position: fixed;
+  top: 0;
   width: 100%;
 }
+
+/* Styling for links in the top navigation bar */
 .topnav a {
   float: left;
   color: #000000;
@@ -30,14 +41,20 @@ img {
   text-decoration: none;
   font-size: 17px;
 }
+
+/* Styling for the active link in the top navigation bar */
 .topnav a.active {
   background-color: #FF7676;
   color: white;
 }
+
+/* Styling for links in the top navigation bar when hovered */
 .topnav a:hover {
   background-color: #ffcbcb;
   color: rgb(0, 0, 0);
 }
+
+/* Styling for the other bit of the top navigation bar */
 .topnav b {
   float: left;
   color: #f2f2f2;
@@ -46,52 +63,62 @@ img {
   text-decoration: none;
   font-size: 17px;
 }
+
+/* Styling for the top navigation bar logo image */
 .topnavimg {
   width: 6%;
   height: 10px;
   position: relative;
   top: -23px;
 }
+
+/* Styling for the hero image section */
 .hero-image {
   background-image: url("./Images/TePuia_CoverImage.jpg");
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position:absolute margin-top: 50px;
+  margin-top: 50px;
 }
+
+/* Styling for red bars */
 .redbar {
   height: 25px;
   border-radius: 0px;
 }
+
+/* Two-column layout styling */
 .two-column {
   display: grid;
   grid-template-columns: 1fr 1fr;
- /* Changed columns to make it more responsive */
   gap: 50px;
   margin: 0 auto;
- /* Centers the section */
   max-width: 1200px;
- /* Restricts width for better readability */
   padding: 20px;
- /* Adds some padding for aesthetics */
 }
+
+/* Styling for images within the two-column section */
 .aboutimg img {
   width: 100%;
- /* Ensures image is responsive */
   height: auto;
- /* Maintains aspect ratio */
 }
+
+/* Styling for h1 */
 h1 {
   background-color: #B02828;
   color: whitesmoke;
 }
+
+/* Styling for secondary red bars */
 .redbar2 {
   height: 25px;
   border-radius: 0px;
   margin-top: 49px;
 }
-.three-column{
+
+/* Three-column layout styling */
+.three-column {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 100px;
@@ -100,24 +127,34 @@ h1 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.card{
-  background-color: #B02828 ;
+
+/* Styling for cards in the three-column layout */
+.card {
+  background-color: #B02828;
 }
+
+/* Styling for text within cards */
 .card-text {
   text-align: center;
   color: whitesmoke;
 }
+
+/* Styling for all links */
 a {
   color: whitesmoke;
 }
+
+/* Styling for the footer */
 footer {
-  background-color:#D9D9D9;
+  background-color: #D9D9D9;
   margin-left: 600px;
   margin-right: 600px;
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 20px;
 }
+
+/* Styling for the restaurant cover image */
 .restaurant_img {
   width: 1500px;
   height: 600px;
@@ -125,22 +162,8 @@ footer {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-/* Centered text */
-.restaurants {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #B02828;
-  border-radius: 5px;
-  font-size: 90px;
-}
+
+/* Styling for h3 */
 h3 {
   margin: auto;
   text-align: center;
@@ -148,13 +171,13 @@ h3 {
   width: 40%;
   margin-bottom: 50px;
 }
-.icon {
-  margin-top: 40px;
-  width: 300px;
-}
+
+/* Styling for menu text */
 .menus {
   color: #000000;
 }
+
+/* Styling for h4 */
 h4 {
   font-weight: 5;
 }
